@@ -12,7 +12,7 @@ class Navbar extends HTMLElement {
         <div class="flex flex-wrap items-center justify-between py-1 md:py-4">
           
           <!-- Navbar Logo -->
-          <a href="/index.html" class="p-2 text-2xl font-extrabold hover:text-white/70">
+          <a href="/index.html" class="p-2 text-2xl font-extrabold hover:text-white/80">
             Julian<span class="text-[#EEABEE] dark:text-[#F39258]">.</span>
           </a>
 
@@ -37,31 +37,31 @@ class Navbar extends HTMLElement {
 
           <!-- Navbar Links -->
           <ul
-            class="font-base flex min-h-[calc(100dvh-88px)] flex-col items-center justify-center gap-5 text-base md:min-h-0 md:flex-row md:justify-start"
+            class="font-medium flex min-h-[calc(100dvh-88px)] flex-col items-center justify-center gap-5 text-base md:min-h-0 md:flex-row md:justify-start"
           >
             <li>
               <a
                 href="/index.html"
-                class="block py-2 px-4 hover:text-white/70"
+                class="block py-2 px-4 hover:text-white/80"
                 aria-current="page"
                 >Home</a
               >
             </li>
             <li>
-              <a href="/index.html#about" class="block py-2 px-4 hover:text-white/70"
+              <a href="/index.html#about" class="block py-2 px-4 hover:text-white/80"
                 >About</a
               >
             </li>
             <li>
               <a
                 href="/src/pages/projects.html"
-                class="block py-2 px-4 hover:text-white/70"
+                class="block py-2 px-4 hover:text-white/80"
                 >Projects</a
               >
             </li>
             <li>
               <button
-                class="rounded-full border border-black dark:border-white px-3 py-2 transition-all duration-150 ease-linear hover:bg-white hover:text-black md:px-5 md:py-2"
+                class="rounded-full border border-white px-3 py-2 transition-all duration-150 ease-linear hover:bg-white hover:text-black md:px-5 md:py-2"
                 type="button"
               >
                 <a href="mailto:juliannrochaa@gmail.com" class="font-medium"
