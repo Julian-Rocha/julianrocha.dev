@@ -12,7 +12,7 @@ class Navbar extends HTMLElement {
         <div class="flex flex-wrap items-center justify-between py-1 md:py-4">
           
           <!-- Navbar Logo -->
-          <a href="/index.html" class="p-2 text-2xl font-extrabold hover:text-white/80">
+          <a href="/" class="p-2 text-2xl font-extrabold hover:text-white/80">
             Julian<span class="text-[#EEABEE] dark:text-[#F39258]">.</span>
           </a>
 
@@ -41,14 +41,14 @@ class Navbar extends HTMLElement {
           >
             <li>
               <a
-                href="/index.html"
+                href="/"
                 class="block py-2 px-4 hover:text-white/80"
                 aria-current="page"
                 >Home</a
               >
             </li>
             <li>
-              <a href="/index.html#about" class="block py-2 px-4 hover:text-white/80"
+              <a href="/#about" class="block py-2 px-4 hover:text-white/80"
                 >About</a
               >
             </li>
