@@ -21,13 +21,13 @@ class Footer extends HTMLElement {
           <!-- Footer Social Buttons -->
           <div class="flex items-center gap-5 text-4xl">
             <a href="https://www.instagram.com/juliaann._/" target="_blank">
-              <i class="fa-brands fa-instagram hover:text-black/70 dark:hover:text-white/70"></i>
+              <i class="fa-brands fa-instagram hover:text-black/80 dark:hover:text-white/80"></i>
             </a>
             <a href="https://github.com/Julian-Rocha" target="_blank">
-              <i class="fa-brands fa-github hover:text-black/70 dark:hover:text-white/70"></i>
+              <i class="fa-brands fa-github hover:text-black/80 dark:hover:text-white/80"></i>
             </a>
             <a href="https://www.linkedin.com/in/julian-rocha-361591263/" target="_blank">
-              <i class="fa-brands fa-linkedin hover:text-black/70 dark:hover:text-white/70"></i></a>
+              <i class="fa-brands fa-linkedin hover:text-black/80 dark:hover:text-white/80"></i></a>
           </div>
 
         </div>
