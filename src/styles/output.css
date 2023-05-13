@@ -2157,6 +2157,11 @@ body{
   color: rgb(51 102 153 / .35);
 }
 
+.text-\[\#BB8B7E\]{
+  --tw-text-opacity: 1;
+  color: rgb(187 139 126 / var(--tw-text-opacity));
+}
+
 .text-\[\#EEABEE\]{
   --tw-text-opacity: 1;
   color: rgb(238 171 238 / var(--tw-text-opacity));
@@ -2172,19 +2177,14 @@ body{
   color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
-.text-white{
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-orange-300{
   --tw-text-opacity: 1;
   color: rgb(253 186 116 / var(--tw-text-opacity));
 }
 
-.text-\[\#BB8B7E\]{
+.text-white{
   --tw-text-opacity: 1;
-  color: rgb(187 139 126 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .underline{
@@ -2746,8 +2746,8 @@ span.titles::before {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.dark .dark\:bg-hero-dark{
-  background-image: url('/src/assets/images/hero-dark.jpg');
+.dark .dark\:bg-hero-dark-mobile{
+  background-image: url('/src/assets/images/hero-dark-mobile.jpg');
 }
 
 .dark .dark\:from-black{
@@ -2828,6 +2828,10 @@ span.titles::before {
 
   .sm\:underline{
     text-decoration-line: underline;
+  }
+
+  .dark .dark\:sm\:bg-hero-dark{
+    background-image: url('/src/assets/images/hero-dark.jpg');
   }
 }
 
