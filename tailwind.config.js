@@ -6,7 +6,6 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-dark-mobile": "url('/src/assets/images/hero-dark-mobile.jpg')",
         "hero-dark": "url('/src/assets/images/hero-dark.jpg')",
       },
     },
